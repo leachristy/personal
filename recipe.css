@@ -1,0 +1,49 @@
+body {
+    background-color: beige;
+}
+
+img {
+    width: 400px;
+}
+
+h1{
+    text-align: center;
+}
+
+.friedrice {
+    float: right;
+    margin-right: 15%;
+}
+
+.ingredients {
+    padding: 10px;
+    margin-left: 20%;
+}
+
+.instructions {
+    display: block;
+    float: left;
+    margin-left: 20%;
+}
+
+input[type=checkbox] {
+    accent-color: pink;
+}
+  
+
+@media screen and (max-width: 900px) {
+    img{
+        width: 300px;
+    }
+    .friedrice {
+        float: left;
+        margin-left: 20%;
+    }
+    .ingredients {
+        float: left;
+    }
+    .instructions {
+        margin: 5%;
+    }
+}
+

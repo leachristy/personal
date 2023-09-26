@@ -1,0 +1,18 @@
+body {
+    background-color:rgba(178, 241, 238, 0.838);
+}
+
+h1, h2{
+    text-align: center;
+}
+
+.chillsongs, .dancesongs {
+    margin-left: 40%;
+}
+
+@media screen and (max-width: 900px) {
+    .chillsongs, .dancesongs {
+        margin-left: 25%;
+        display: block;
+    }
+}
